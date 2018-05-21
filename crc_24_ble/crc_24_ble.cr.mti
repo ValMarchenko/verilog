@@ -1,0 +1,15 @@
+/home/valera/crc_24_ble/crc_tb.v {1 {vlog -work work -vopt /home/valera/crc_24_ble/crc_tb.v
+Model Technology ModelSim SE vlog 6.2b Compiler 2006.07 Jul 31 2006
+-- Compiling module crc_tb
+
+Top level modules:
+	crc_tb
+
+} {} {}} /home/valera/crc_24_ble/dut.v {1 {vlog -work work -vopt /home/valera/crc_24_ble/dut.v
+Model Technology ModelSim SE vlog 6.2b Compiler 2006.07 Jul 31 2006
+-- Compiling module dut
+
+Top level modules:
+	dut
+
+} {} {}}

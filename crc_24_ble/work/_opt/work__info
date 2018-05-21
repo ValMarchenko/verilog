@@ -1,0 +1,46 @@
+m255
+13
+cModel Technology
+d/home/valera
+T_opt
+V7jhjmKB`@bFz^@I=D@GA]1
+04 6 4 work crc_tb fast 0
+o-quiet -auto_acc_if_foreign -work work
+tExplicit 1
+OE;O;6.2b;35
+vcrc_24_ble
+IYLJ<Q[G>ciJza2h<aiA`U2
+V:=;<K;i_dJ0Q7URcIR>FC2
+d/home/valera/crc_24_ble
+w1526898104
+F/home/valera/crc_24_ble/crc.v
+L0 1
+V:=;<K;i_dJ0Q7URcIR>FC2
+OE;L;6.2b;35
+r1
+31
+o-work work
+vcrc_tb
+I08SUL`?O@N`BR4[P5>MnP1
+VDd6IE5ZCgzCN]QYn5<[=k2
+d/home/valera/crc_24_ble
+w1526899682
+F/home/valera/crc_24_ble/crc_tb.v
+L0 2
+VDd6IE5ZCgzCN]QYn5<[=k2
+OE;L;6.2b;35
+r1
+31
+o-work work
+vdut
+I8[i=?me>cMPK8hOdD;Z>X1
+VM[F89R6fbbQiUG>0YAeQb1
+d/home/valera/crc_24_ble
+w1526898537
+F/home/valera/crc_24_ble/dut.v
+L0 1
+VM[F89R6fbbQiUG>0YAeQb1
+OE;L;6.2b;35
+r1
+31
+o-work work
