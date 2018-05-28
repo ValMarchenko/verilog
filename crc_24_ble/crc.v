@@ -1,6 +1,6 @@
 module crc_24_ble(clk_i, rst_n_i, data_i, res_o);
    
-   parameter POLYNOM = 64'b1000000000000011001011011;
+   parameter POLYNOM = 64'b1010;
 
    integer i;
 
@@ -35,8 +35,11 @@ module crc_24_ble(clk_i, rst_n_i, data_i, res_o);
        end
      else
        begin
-	  crc_gen[0] <=  xor_v;
-	  for (i = 1; i <= REG_WIDTH; i = i + 1)
+       if (POLYNOM[0])
+			crc_gen[0] <=  xor_v;
+		else
+			crc_gen[0] <= data_i;
+	  for (i = 1; i < REG_WIDTH; i = i + 1)
 	    if (POLYNOM[i])
 	      crc_gen[i] <= xor_v ^ crc_gen[i-1];
 	    else
